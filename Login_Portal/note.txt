@@ -1,0 +1,4 @@
+superuser
+uname : admin
+pwd : admin
+mail : akmashh62@gmail.com

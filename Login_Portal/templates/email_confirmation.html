@@ -1,0 +1,9 @@
+{% autoescape off %}
+Welcome to Ashutosh's Login Portal
+
+Hello {{ name }}
+Please confirm e-mail by clicking on the following link.
+
+Conformation link : http://{{domain}}{% url 'activate' uid64=uid token=token%}
+
+{% endautoescape %}
